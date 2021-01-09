@@ -2,9 +2,7 @@ import PrimaryBtn from '../buttons/PrimaryBtn'
 import SecondaryBtn from '../buttons/SecondaryBtn'
 
 export default function Project({ type, projectName, description, primaryLink, secondaryLink, imageSrc, imageDesc }) {
-
-    
-    
+       
     return (
         <div className="flex flex-col items-center my-8 text-center space-y-10">
             <div>
@@ -30,7 +28,7 @@ export default function Project({ type, projectName, description, primaryLink, s
                 <img 
                     src={imageSrc}
                     alt={imageDesc}
-                    className="rounded-2xl shadow-lg"
+                    className="rounded-2xl shadow-lg object-cover w-full h-48"
                 />
             </div>
         </div>

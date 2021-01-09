@@ -3,6 +3,7 @@ import PrimaryBtn from '../buttons/PrimaryBtn'
 import SecondaryBtn from '../buttons/SecondaryBtn'
 
 export default function ProjectContainer() {
+
     return (
         <section className="container mx-auto px-4">
             <div className="relative flex justify-center">
@@ -44,7 +45,9 @@ export default function ProjectContainer() {
                 secondaryLink="https://plaxamana.github.io/scenic-vacation/"
                 imageDesc="Screenshot of Scenic Forests Homepage"
                 imageSrc="/img/scenic-forest.png"
-            />           
+            />
+
+                    
         </section>
     )
 }

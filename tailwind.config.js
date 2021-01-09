@@ -10,11 +10,16 @@ module.exports = {
       },
       colors: {
         orange: colors.orange
+      },
+      zIndex: {
+        '-10': '-10',
       }
     },
   },
   variants: {
-    extend: {},
+    extend: {
+
+    },
   },
   plugins: [],
 }
