@@ -7,7 +7,7 @@ export default function ProjectContainer() {
     return (
         <section className="container mx-auto px-4">
             <div className="relative flex justify-center">
-                <h2 className="font-bold text-xl text-center">My Work</h2>
+                <h2 className="font-bold text-lg text-center uppercase">My Work</h2>
                 <div className="absolute bottom-0 transform translate-y-1 w-16 h-1 bg-blue-900"></div>
             </div>
             <Project 

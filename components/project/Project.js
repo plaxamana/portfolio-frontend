@@ -6,9 +6,9 @@ export default function Project({ type, projectName, description, primaryLink, s
     return (
         <div className="flex flex-col items-center my-8 text-center space-y-10">
             <div>
-                <p className="uppercase font-bold tracking-widest text-orange-500">{type}</p>
+                <p className="uppercase font-bold tracking-widest-lg text-orange-500 mb-2">{type}</p>
                 <p className="font-bold mb-4">{projectName}</p>
-                <p className="leading-normal">{description}</p>
+                <p className="leading-loose">{description}</p>
             </div>
 
             {/* button container */}
