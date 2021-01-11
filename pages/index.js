@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
       <div className="relative">
         <ProjectContainer />
-        <div className="-z-10 absolute bottom-0 rect-clip bg-blue-900 h-64 w-full transform translate-y-40"></div>
+        <div className="-z-10 absolute bottom-0 rect-clip bg-blue-900 h-64 w-full transform translate-y-40 md:h-72 md:translate-y-60"></div>
       </div>
       <SkillsContainer />
       <ContactForm />

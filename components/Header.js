@@ -21,12 +21,12 @@ export default function Header() {
     
     return (
         <header className="container mx-auto p-4 md:px-16">
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between">
+            <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
                 <div className="flex justify-between">
                     <div className="font-bold">Philip Laxamana</div>
                     <div 
                         onClick={onClick}
-                        className="md:hidden cursor-pointer" 
+                        className="lg:hidden cursor-pointer" 
                         id="menu-btn"
                     >
                     {displayMenu}
@@ -34,7 +34,7 @@ export default function Header() {
                 </div>
                 <nav>
                     <ul 
-                        className={`${isActive ? 'block transform duration-500' : 'hidden'} mt-4 flex flex-col text-center md:flex md:flex-row md:space-x-6 md:my-auto`}
+                        className={`${isActive ? 'block transform duration-500' : 'hidden'} mt-4 flex flex-col text-center lg:flex lg:flex-row lg:space-x-6 lg:my-auto`}
                         ref={dropdownRef}
                         id="menu"
                     >
