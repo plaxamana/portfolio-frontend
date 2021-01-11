@@ -4,7 +4,7 @@ import Submit from '../buttons/PrimaryBtn'
 
 export default function Contact() {
     return(
-        <div className="container mx-auto mt-16 px-4 text-center">
+        <div className="container mx-auto mt-16 px-4 text-center" id="contact">
             <h2 className="font-bold text-xl mb-6">Want to contact me? Shoot me a line below!</h2>
             <form action="#">
                 <InputField 

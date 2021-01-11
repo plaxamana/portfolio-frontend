@@ -25,11 +25,13 @@ export default function Project({ type, projectName, description, primaryLink, s
 
             {/* Image container */}
             <div>
-                <img 
-                    src={imageSrc}
-                    alt={imageDesc}
-                    className="rounded-2xl shadow-lg object-cover w-full h-48"
-                />
+                <a href={primaryLink}>
+                    <img 
+                        src={imageSrc}
+                        alt={imageDesc}
+                        className="rounded-2xl shadow-lg object-cover w-full h-48"
+                    />
+                </a>
             </div>
         </div>
     )
