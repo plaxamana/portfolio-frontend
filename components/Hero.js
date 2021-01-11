@@ -24,7 +24,7 @@ export default function Hero() {
                     {/* Button Container */}
                     <div className="flex flex-col w-full md:flex-row md:max-w-max md:space-x-4">
                         <PrimaryBtn text="Contact Me" link="#contact" />
-                        <SecondaryBtn text="View My Resume" outsideLink="https://google.com"/>
+                        <SecondaryBtn text="View My Resume" outsideLink="https://drive.google.com/file/d/1KVit18G2V_0Ay43jt5VZycwD7AbUfWvk/view"/>
                     </div>
                 </div>
 
