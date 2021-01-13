@@ -42,7 +42,7 @@ export default function Project({ type, projectName, description, primaryLink, s
                     <Image 
                         src={imageSrc}
                         alt={imageDesc}
-                        className=""
+                        className="object-cover"
                         layout="responsive"
                         width={600}
                         height={330}
