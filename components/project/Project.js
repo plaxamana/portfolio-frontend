@@ -4,10 +4,13 @@ import Image from 'next/image'
 
 export default function Project({ type, projectName, description, primaryLink, secondaryLink, imageSrc, imageDesc, flipped }) {
 
+    const orderFirst = { order: -9999 }
+    const orderLast = { order: 9999 }
+
     return (
 
         <div className="flex flex-col items-center my-12 text-center space-y-10 md:mb-24">
-            <div className="md:flex md:items-center md:justify-between w-full">
+            <div className="md:flex md:items-center md:justify-between">
                 {/* Project container */}
                 <div className={`${flipped ? 'order-last' : 'order-first' }  mb-8 md:flex md:flex-col md:text-left `} >
                     
@@ -36,16 +39,13 @@ export default function Project({ type, projectName, description, primaryLink, s
                 
                 <a 
                     href={primaryLink} 
-                    className={`${flipped ? 'order-first' : 'order-last' } block rounded-2xl shadow-lg overflow-hidden w-full h-48 md:w-1/2 md:h-3/4`}
+                    className={`${flipped ? 'order-first' : 'order-last' } block rounded-2xl shadow-lg overflow-hidden object-cover w-full h-48 md:w-1/2 md:h-3/4`}
                     
                 >
-                    <Image 
+                    <img 
                         src={imageSrc}
                         alt={imageDesc}
                         className="object-cover"
-                        layout="responsive"
-                        width={600}
-                        height={330}
                     />
                 </a>
                
