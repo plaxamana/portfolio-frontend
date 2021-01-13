@@ -1,11 +1,7 @@
 import PrimaryBtn from '../buttons/PrimaryBtn'
 import SecondaryBtn from '../buttons/SecondaryBtn'
-import Image from 'next/image'
 
 export default function Project({ type, projectName, description, primaryLink, secondaryLink, imageSrc, imageDesc, flipped }) {
-
-    const orderFirst = { order: -9999 }
-    const orderLast = { order: 9999 }
 
     return (
 
