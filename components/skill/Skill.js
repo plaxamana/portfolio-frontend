@@ -1,6 +1,7 @@
+
 export default function Skill({ skillImg, skillName, skillDesc }) {
     return (
-        <div className="rounded-t-xl shadow-lg w-full rounded-b-xl md:max-w-sm">
+        <div className="rounded-t-xl shadow-lg w-full rounded-b-xl md:max-w-xs lg:max-w-sm">
             <div className="bg-gray-800 text-gray-200 p-4 rounded-t-xl relative flex justify-between items-center space-x-2">
                 <div class="flex space-x-1">
                     <div class="w-3 h-3 bg-red-500 rounded"></div>

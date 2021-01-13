@@ -1,10 +1,8 @@
 import PrimaryBtn from '../buttons/PrimaryBtn'
 import SecondaryBtn from '../buttons/SecondaryBtn'
+import Image from 'next/image'
 
 export default function Project({ type, projectName, description, primaryLink, secondaryLink, imageSrc, imageDesc, flipped }) {
-
-    const orderFirst = { order: -9999 }
-    const orderLast = { order: 9999 }
 
     return (
 
@@ -41,10 +39,11 @@ export default function Project({ type, projectName, description, primaryLink, s
                     className={`${flipped ? 'order-first' : 'order-last' } block rounded-2xl shadow-lg overflow-hidden object-cover w-full h-48 md:w-1/2 md:h-3/4`}
                     
                 >
-                    <img 
+                    <Image 
                         src={imageSrc}
                         alt={imageDesc}
                         className=""
+                        layout="responsive"
                     />
                 </a>
                
